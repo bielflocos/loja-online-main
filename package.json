@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/bielflocos/loja-online-main/issues"
   },
-  "homepage": "https://github.com/bielflocos/loja-online-main#readme"
+  "homepage": "https://github.com/bielflocos/loja-online-main#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "stripe": "^22.1.1"
+  }
 }
