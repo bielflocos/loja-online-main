@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja Tech</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <script src="https://js.stripe.com/v3/"></script>
-    
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
-</body>
-</html>
-<header>
+    <header>
         <h1>Loja Tech</h1>
     </header>
 
@@ -22,16 +18,16 @@
             <img src="Celular.jpeg" alt="Celular">
             <h2>Smartphone</h2>
             <p>R$ 1.999,00</p>
-            <button onclick="comprar('Smartphone')">
+            <button onclick="comprar('Smartphone', 199900)">
                 Comprar
             </button>
         </div>
 
         <div class="card">
-            <img src="relogio.jpeg" alt="Relógio">
+            <img src="relogio.jpeg" alt="Relogio">
             <h2>Smartwatch</h2>
             <p>R$ 599,00</p>
-            <button onclick="comprar('Smartwatch')">
+            <button onclick="comprar('Smartwatch', 59900)">
                 Comprar
             </button>
         </div>
@@ -40,8 +36,10 @@
             <img src="fone.png" alt="Fone">
             <h2>Fone Bluetooth</h2>
             <p>R$ 299,00</p>
-            <button onclick="comprar('Fone Bluetooth')">
+            <button onclick="comprar('Fone Bluetooth', 29900)">
                 Comprar
             </button>
         </div>
     </main>
+</body>
+</html>
